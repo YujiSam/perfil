@@ -22,7 +22,7 @@ if menu == "Home":
     st.title("Bem-vindo ao meu Dashboard 🚀")
     st.subheader("Apresentação Pessoal")
     st.write("""
-    Olá, meu nome é [SEU NOME].  
+    Olá, meu nome é Gustavo Yuji Osugi.  
     Este dashboard foi desenvolvido em Python + Streamlit para apresentar meu perfil profissional e realizar uma análise de dados aplicada.
     """)
     st.markdown("**Objetivo profissional:** Aqui você descreve em poucas linhas seu objetivo.")
@@ -32,17 +32,16 @@ if menu == "Home":
 # ======================
 elif menu == "Formação e Experiência":
     st.title("🎓 Formação Acadêmica e Experiência")
-    st.write("- Graduação em ... (coloque sua área)")
-    st.write("- Cursos relevantes: ...")
-    st.write("- Experiência profissional: ...")
+    st.write("- Graduando na FIAP em Engenharia de Software (2024 - 2027)")
+    st.write("- Cursos relevantes: Alura Javascript")
 
 # ======================
 # Aba Skills
 # ======================
 elif menu == "Skills":
     st.title("💡 Minhas Skills")
-    st.write("**Tecnologias:** Python, SQL, Power BI, Streamlit, etc.")
-    st.write("**Ferramentas:** Git, Excel, etc.")
+    st.write("**Tecnologias:** Python, Javascript, HTML, CSS, Streamlit, etc.")
+    st.write("**Ferramentas:** Git, Vscode, PyCharm")
     st.write("**Soft Skills:** Comunicação, Trabalho em equipe, Resolução de problemas")
 
 # ======================
